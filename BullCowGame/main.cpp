@@ -20,7 +20,8 @@ int main(){
     
     GetGuessAndPrintBack();
     GetGuessAndPrintBack();
-
+    
+    cout << "Adding new line" << endl;
     cout << endl;
     return 0;
 }
