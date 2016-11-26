@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "019D8E6C5A3B5005200B70C38DCDAE8585F98765",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "019D8E6C5A3B5005200B70C38DCDAE8585F98765" : 9223372036854775807,
+    "79D2EBAFF7C1B25270754D725A8CAACB0CD4DD68" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "851912E6-D304-41AB-A330-F407256295BD",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "019D8E6C5A3B5005200B70C38DCDAE8585F98765" : "BullCowGame\/",
+    "79D2EBAFF7C1B25270754D725A8CAACB0CD4DD68" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "BullCowGame",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "BullCowGame.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/gingerly\/BullCowGame",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "019D8E6C5A3B5005200B70C38DCDAE8585F98765"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "myproject.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "79D2EBAFF7C1B25270754D725A8CAACB0CD4DD68"
+    }
+  ]
+}
