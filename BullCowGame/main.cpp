@@ -8,11 +8,10 @@
 
 #include <iostream> // Pre-Processor directive
 #include <string>
-#include "main.h"
-using namespace std;
+
 
 void PrintIntro();
-string GetGuessAndPrintBack();
+std::string GetGuessAndPrintBack();
 void PlayGame();
 bool AskToPlayAgain();
 
@@ -28,35 +27,35 @@ int main(){
 // Intro the game.
 void PrintIntro(){
     constexpr int WORD_LENGTH = 8;
-    cout << "Welcome to the Bulls and Cows: A fun word game.\n";
-    cout << "Can you guess the "<< WORD_LENGTH;
-    cout << " letter isogram I'm thinking of?\n";
-    cout << endl;
+    std::cout << "Welcome to the Bulls and Cows: A fun word game.\n";
+    std::cout << "Can you guess the "<< WORD_LENGTH;
+    std::cout << " letter isogram I'm thinking of?\n";
+    std::cout << std::endl;
     return;
 }
 
 // Get a guess from the player.
-string GetGuess(){
-    string Guess = "";
-    getline(cin, Guess);
+std::string GetGuess(){
+    std::string Guess = "";
+    getline(std::cin, Guess);
     return Guess;
 }
 
 // Play Game
 void PlayGame(){
     constexpr int GuessTimes = 5;
-    string Guess = "";
+    std::string Guess = "";
     for (int i = 0; i < GuessTimes; i++ ){
-        cout << "Enter your Guess:";
+        std::cout << "Enter your Guess:";
         Guess = GetGuess();
-        cout << "You Guessed: " << Guess << endl;
-        cout << endl;
+        std::cout << "You Guessed: " << Guess << std::endl;
+        std::cout << std::endl;
     }
 }
 
 bool AskToPlayAgain(){
-    string Response = "";
-    cout << "Do you want to play again (y/n)?";
-    getline(cin, Response);
+    std::string Response = "";
+    std::cout << "Do you want to play again (y/n)?";
+    getline(std::cin, Response);
     return(Response[0] == 'y');
 }
