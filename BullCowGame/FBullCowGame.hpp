@@ -10,17 +10,24 @@
 #define FBullCowGame_hpp
 #include <string>
 
+using FString = std::string;
+using int32 = int;
+
 class FBullCowGame{
 public:
+    FBullCowGame();
+    int32 GetMaxTries() const;
+    int32 GetCurrentGuess() const;
+    bool IsGmaeWon() const;
+    
     void Reset(); // TODO Reset the game
-    int GetMaxTries();
-    int GetCurrentTry();
-    bool IsGmaeWon();
-    bool CheckGuessValidity(std::string);
+    bool CheckGuessValidity(FString);
+    // provide a method for counting bulls & cows, and increasing turn #
     
 private:
-    int MyCurrentTry;
-    int MyMaxtTries;
+    // See the respective Constructor
+    int32 MyCurrentGuess;
+    int32 MyMaxtTries;
 };
 
 #endif /* FBullCowGame_hpp */

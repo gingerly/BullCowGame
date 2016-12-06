@@ -7,3 +7,27 @@
 //
 
 #include "FBullCowGame.hpp"
+using int32 = int;
+FBullCowGame::FBullCowGame() { Reset();}
+
+void FBullCowGame::Reset(){
+    constexpr int32 MAX_TRIES = 5;
+    MyMaxtTries = MAX_TRIES;
+    
+    // Guess a new word for matching.
+    MyCurrentGuess = 1;
+    
+    return;
+}
+
+int32 FBullCowGame::GetMaxTries() const { return MyMaxtTries; }
+int32 FBullCowGame::GetCurrentGuess() const { return MyCurrentGuess; }
+
+/*
+bool FBullCowGame::IsGmaeWon(){
+    
+}
+
+bool FBullCowGame::CheckGuessValidity(std::string){
+    
+}*/
